@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.registration-form-heading {
+  font-family: roboto;
+  font-size: 36px;
+  color: #ea580c;
+}
+.form-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 60%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  margin-top: 30px;
+}
+.success-heading {
+  font-family: roboto;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.success-button {
+  background-color: #ea580c;
+  width: 90%;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  padding: 20px 0px;
+}
+.label-holder {
+  font-family: roboto;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+.input-holder {
+  font-family: roboto;
+  font-size: 14px;
+  font-size: 500;
+  color: #9aa5b1;
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+}
+.error-holder {
+  border: 1px solid #ff0b37;
+  background-color: #ffffff;
+}
+.form-btn {
+  align-self: center;
+  background-color: #ea580c;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  padding: 8px 10px;
+  margin-top: 30px;
+}
+.error-msg {
+  color: #ff0b37;
+  margin: 0px;
+}
